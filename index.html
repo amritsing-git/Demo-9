@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creative Bhalu | Cute Handmade Gifts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">💗 Handmade • Personalized • Made with love &nbsp; | &nbsp; 📍 Kanpur</div>
+<header>
+  <a class="brand" href="#home"><img src="assets/logo.jpg"><span>creative<br><b>bhalu</b></span></a>
+  <nav><a href="#home">Home</a><a href="#shop">Shop</a><a href="#custom">Customize</a><a href="#about">About</a></nav>
+  <div class="actions"><button id="searchBtn">⌕</button><button id="cartBtn">🛍<i id="count">0</i></button><button class="hamb" id="hamb">☰</button></div>
+</header>
+<div class="mobileNav" id="mobileNav"><button id="closeNav">×</button><a href="#home">Home</a><a href="#shop">Shop</a><a href="#custom">Customize</a><a href="#about">About</a></div>
+<main>
+<section class="hero" id="home">
+ <div class="heroCopy">
+  <div class="pill">✨ CUTE THINGS, MADE PERSONAL</div>
+  <h1>Little things.<br><em>Big smiles.</em> 🧸</h1>
+  <p>Handmade bouquets, cute accessories & personalized gifts created to make someone's day a little more special.</p>
+  <div class="buttons"><a class="primary" href="#shop">Explore collection <span>→</span></a><a class="secondary" href="#custom">Make it yours ♡</a></div>
+  <div class="trust"><span>♡ Handmade</span><span>♡ Customization available</span><span>♡ DM to order</span></div>
+ </div>
+ <div class="heroVisual">
+   <div class="blob one"></div><div class="blob two"></div>
+   <div class="sticker">cute<br>made<br>for you ♡</div>
+   <img src="assets/product-2.jpg" alt="Handmade bouquet">
+   <div class="miniCard"><b>made with love</b><br><small>one piece at a time ✨</small></div>
+ </div>
+</section>
+<section class="marquee"><span>🌸 BOUQUETS</span><span>🎀 PERSONALIZED GIFTS</span><span>🧸 CUTE ACCESSORIES</span><span>💗 CUSTOM ORDERS</span></section>
+<section class="shop" id="shop">
+ <div class="heading"><div><small>SHOP SOMETHING CUTE</small><h2>Made for your<br><em>favourite people.</em></h2></div><div class="filters"><button class="active" data-filter="all">All</button><button data-filter="bouquet">Bouquets</button><button data-filter="gift">Gifts</button><button data-filter="accessory">Accessories</button></div></div>
+ <div class="grid" id="grid"></div>
+</section>
+<section class="custom" id="custom">
+ <div class="customArt"><div>💗</div><span>you choose<br>we create ✨</span></div>
+ <div><small>PERSONALIZATION AVAILABLE</small><h2>Your idea.<br><em>Our little magic.</em></h2><p>Have a colour, name, theme or special occasion in mind? Tell us what you want and we'll turn it into a cute handmade creation.</p><a class="primary" href="https://instagram.com/creative.bhalu" target="_blank">DM your idea →</a></div>
+</section>
+<section class="about" id="about"><div class="aboutImg"><img src="assets/logo.jpg"></div><div><small>HELLO FROM CREATIVE BHALU 🧸</small><h2>Made for the moments<br>you want to <em>remember.</em></h2><p>Creative Bhalu is a cute accessories and gifting hub from Kanpur. Every piece is made to feel personal, colourful and a little bit extra.</p><div class="stats"><div><b>26+</b><span>Posts</span></div><div><b>349+</b><span>Happy followers</span></div><div><b>∞</b><span>Custom ideas</span></div></div></div></section>
+<section class="cta"><div><small>READY TO MAKE SOMEONE SMILE?</small><h2>Let's make it cute. 💕</h2></div><a class="lightBtn" href="https://instagram.com/creative.bhalu" target="_blank">Order on Instagram ↗</a></section>
+</main>
+<footer><div class="footBrand"><img src="assets/logo.jpg"><div><b>creative bhalu</b><small>cute things • made with heart</small></div></div><div>Kanpur 📍 &nbsp; • &nbsp; DM for orders 💌</div><div>© 2026 Creative Bhalu</div></footer>
+<div class="overlay" id="overlay"></div>
+<aside class="cart" id="cart"><div class="cartHead"><h3>Your cute bag 🧸</h3><button id="closeCart">×</button></div><div id="cartItems" class="cartItems"></div><div class="cartFoot"><div><span>Total</span><b id="total">₹0</b></div><a id="orderLink" class="primary full" target="_blank">Order on Instagram →</a><small>Demo checkout — final order is confirmed through DM.</small></div></aside>
+<div class="modal" id="modal"><div class="modalCard"><button id="closeModal">×</button><img id="mImg"><div><small id="mCat"></small><h2 id="mTitle"></h2><b id="mPrice"></b><p id="mDesc"></p><button class="primary full" id="mAdd">Add to cute bag ♡</button></div></div></div>
+<script src="app.js"></script>
+</body>
+</html>
